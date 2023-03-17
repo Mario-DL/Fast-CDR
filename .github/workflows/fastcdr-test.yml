@@ -97,4 +97,4 @@ jobs:
       uses: actions/upload-artifact@v1
       with:
         name: test-results-${{ matrix.ubuntu-version }}
-        path: build/fastcdr
+        path: log/latest_test/fastrtps
